@@ -78,3 +78,6 @@ end
 # Example Usage
 attack(Fire(), Grass())   
 attack(Electric(), Ground())  
+attack(Normal(), Normal()) # This should be normal effective
+attack(Normal(), Fighting())
+attack(Fighting(), Normal())
